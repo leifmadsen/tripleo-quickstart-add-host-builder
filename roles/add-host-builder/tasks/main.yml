@@ -1,0 +1,5 @@
+- name: Build add_host playbook
+  delegate_to: localhost
+  template:
+    src: 'add_host.j2'
+    dest: '{{ local_working_dir }}/add_host.yml'
