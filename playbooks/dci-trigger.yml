@@ -1,9 +1,9 @@
 ---
-- include_tasks: quickstart.yml
-- include_tasks: quickstart-extras-undercloud.yml
-- include_tasks: quickstart-extras-overcloud-prep.yml
-- include_tasks: quickstart-extras-overcloud.yml
-- include_tasks: quickstart-extras-validate.yml
+- include: quickstart.yml
+- include: quickstart-extras-undercloud.yml
+- include: quickstart-extras-overcloud-prep.yml
+- include: quickstart-extras-overcloud.yml
+- include: quickstart-extras-validate.yml
 
 
 # Add the overcloud nodes to the generated inventory.
